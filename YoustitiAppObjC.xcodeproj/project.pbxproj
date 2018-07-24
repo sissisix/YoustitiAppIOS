@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25699EAF2105C65700033A52 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25699EAE2105C65700033A52 /* AppDelegate.m */; };
+		25699EB52105C65700033A52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25699EB32105C65700033A52 /* Main.storyboard */; };
+		25699EB72105C65900033A52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25699EB62105C65900033A52 /* Assets.xcassets */; };
+		25699EBA2105C65900033A52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25699EB82105C65900033A52 /* LaunchScreen.storyboard */; };
+		25699EBD2105C65900033A52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25699EBC2105C65900033A52 /* main.m */; };
+		2589E9B5210602F900E9633A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25699EB12105C65700033A52 /* ViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5E51DBC3CF7F28BFF18DDCF2 /* libPods-YoustitiAppObjC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1979E2E39919EF91D0395BFA /* libPods-YoustitiAppObjC.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1979E2E39919EF91D0395BFA /* libPods-YoustitiAppObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YoustitiAppObjC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25699EAA2105C65700033A52 /* YoustitiAppObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoustitiAppObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25699EAD2105C65700033A52 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		25699EAE2105C65700033A52 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		25699EB02105C65700033A52 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		25699EB12105C65700033A52 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		25699EB42105C65700033A52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		25699EB62105C65900033A52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25699EB92105C65900033A52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		25699EBB2105C65900033A52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25699EBC2105C65900033A52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6E919EDBA76B89276318C7C /* Pods-YoustitiAppObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoustitiAppObjC.release.xcconfig"; path = "Pods/Target Support Files/Pods-YoustitiAppObjC/Pods-YoustitiAppObjC.release.xcconfig"; sourceTree = "<group>"; };
+		E594DBA9D7F8F71A19C16D58 /* Pods-YoustitiAppObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoustitiAppObjC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YoustitiAppObjC/Pods-YoustitiAppObjC.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25699EA72105C65700033A52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E51DBC3CF7F28BFF18DDCF2 /* libPods-YoustitiAppObjC.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25699EA12105C65700033A52 = {
+			isa = PBXGroup;
+			children = (
+				25699EC32105DC2900033A52 /* resource */,
+				25699EAC2105C65700033A52 /* YoustitiAppObjC */,
+				25699EAB2105C65700033A52 /* Products */,
+				5F4F467BFA4D3E01A89236AE /* Pods */,
+				4B5172BEF4E1318B8E1A9621 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		25699EAB2105C65700033A52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25699EAA2105C65700033A52 /* YoustitiAppObjC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25699EAC2105C65700033A52 /* YoustitiAppObjC */ = {
+			isa = PBXGroup;
+			children = (
+				25699EAD2105C65700033A52 /* AppDelegate.h */,
+				25699EAE2105C65700033A52 /* AppDelegate.m */,
+				25699EB02105C65700033A52 /* ViewController.h */,
+				25699EB12105C65700033A52 /* ViewController.m */,
+				25699EB32105C65700033A52 /* Main.storyboard */,
+				25699EB62105C65900033A52 /* Assets.xcassets */,
+				25699EB82105C65900033A52 /* LaunchScreen.storyboard */,
+				25699EBB2105C65900033A52 /* Info.plist */,
+				25699EBC2105C65900033A52 /* main.m */,
+			);
+			path = YoustitiAppObjC;
+			sourceTree = "<group>";
+		};
+		25699EC32105DC2900033A52 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		4B5172BEF4E1318B8E1A9621 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1979E2E39919EF91D0395BFA /* libPods-YoustitiAppObjC.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F4F467BFA4D3E01A89236AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E594DBA9D7F8F71A19C16D58 /* Pods-YoustitiAppObjC.debug.xcconfig */,
+				B6E919EDBA76B89276318C7C /* Pods-YoustitiAppObjC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25699EA92105C65700033A52 /* YoustitiAppObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25699EC02105C65900033A52 /* Build configuration list for PBXNativeTarget "YoustitiAppObjC" */;
+			buildPhases = (
+				95F15ECF50CD75E5DD4A8733 /* [CP] Check Pods Manifest.lock */,
+				25699EA62105C65700033A52 /* Sources */,
+				25699EA72105C65700033A52 /* Frameworks */,
+				25699EA82105C65700033A52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YoustitiAppObjC;
+			productName = YoustitiAppObjC;
+			productReference = 25699EAA2105C65700033A52 /* YoustitiAppObjC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25699EA22105C65700033A52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Youstiti;
+				TargetAttributes = {
+					25699EA92105C65700033A52 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 25699EA52105C65700033A52 /* Build configuration list for PBXProject "YoustitiAppObjC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25699EA12105C65700033A52;
+			productRefGroup = 25699EAB2105C65700033A52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25699EA92105C65700033A52 /* YoustitiAppObjC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25699EA82105C65700033A52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25699EBA2105C65900033A52 /* LaunchScreen.storyboard in Resources */,
+				25699EB72105C65900033A52 /* Assets.xcassets in Resources */,
+				25699EB52105C65700033A52 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		95F15ECF50CD75E5DD4A8733 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YoustitiAppObjC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25699EA62105C65700033A52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2589E9B5210602F900E9633A /* ViewController.m in Sources */,
+				25699EBD2105C65900033A52 /* main.m in Sources */,
+				25699EAF2105C65700033A52 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		25699EB32105C65700033A52 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25699EB42105C65700033A52 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		25699EB82105C65900033A52 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25699EB92105C65900033A52 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25699EBE2105C65900033A52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		25699EBF2105C65900033A52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25699EC12105C65900033A52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E594DBA9D7F8F71A19C16D58 /* Pods-YoustitiAppObjC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YoustitiAppObjC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = youstitiSAS.YoustitiAppObjC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25699EC22105C65900033A52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6E919EDBA76B89276318C7C /* Pods-YoustitiAppObjC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YoustitiAppObjC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = youstitiSAS.YoustitiAppObjC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25699EA52105C65700033A52 /* Build configuration list for PBXProject "YoustitiAppObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25699EBE2105C65900033A52 /* Debug */,
+				25699EBF2105C65900033A52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25699EC02105C65900033A52 /* Build configuration list for PBXNativeTarget "YoustitiAppObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25699EC12105C65900033A52 /* Debug */,
+				25699EC22105C65900033A52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25699EA22105C65700033A52 /* Project object */;
+}

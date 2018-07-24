@@ -1,0 +1,6 @@
+module Pods_YoustitiAppObjC {
+  umbrella header "Pods-YoustitiAppObjC-umbrella.h"
+
+  export *
+  module * { export * }
+}
